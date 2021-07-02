@@ -1,3 +1,6 @@
 ## Ignore all figures and figure director
 /FIGURES/**.png
 /FIGURES/**.pdf
+
+## Ignore checkpoints
+/NOTEBOOKS/.ipynb_checkpoints/**
