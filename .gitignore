@@ -15,3 +15,6 @@
 
 ## Ignore test notebooks and scripts
 /NOTEBOOKS/*_test.*
+
+## Ignore data files
+/DATA/*.csv.gz
