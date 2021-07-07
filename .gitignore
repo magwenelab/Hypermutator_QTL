@@ -2,5 +2,16 @@
 /FIGURES/**.png
 /FIGURES/**.pdf
 
+## Ignore diagnostic figures
+/FIGURES/PROGENY/**.png
+/FIGURES/PROGENY/**.pdf
+
 ## Ignore checkpoints
 /NOTEBOOKS/.ipynb_checkpoints/**
+**.ipynb_checkpoints**
+
+## Ignore cache
+/NOTEBOOKS/*pycahce*/**
+
+## Ignore test notebooks and scripts
+/NOTEBOOKS/*_test.*
