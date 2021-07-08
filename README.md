@@ -4,7 +4,7 @@ Python functions and notebooks used in QTL analysis of C. neoformans hypermutato
 
 ## Dependencies
 
-**Python (anaconda) v 3.7.3**
+**[Python (anaconda) v 3.7.3](https://www.anaconda.com/)**
 - Used for analysis and visualization
 
 **[BWA](http://bio-bwa.sourceforge.net/)**
