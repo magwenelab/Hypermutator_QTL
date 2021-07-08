@@ -25,5 +25,8 @@
 ## Ignore large fasta files
 /DATA/*.fasta
 
+## Ignore lists
+/NOTEBOOKS/*.txt
+
 ## Ignore Large SNP dataframe
 /GENOTYPE/*-SNPS.csv.gz
