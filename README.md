@@ -3,11 +3,24 @@
 Python functions and notebooks used in QTL analysis of C. neoformans hypermutator phenotype in Priest et al. 2021
 
 ## Dependencies
-BWA
-SAMTOOLS
-BAMADDRG
-FREEBAYES
-PYTHON
+
+**Python (anaconda) v 3.7.3**
+- Used for analysis and visualization
+
+**[BWA](http://bio-bwa.sourceforge.net/)**
+- Used to align FASTQ file to an XL280 reference genome
+
+**[Samtools](http://www.htslib.org/)**
+- Used to generate and filter SAM and BAM files
+
+**[Bamaddrg](https://github.com/ekg/bamaddrg)**
+- Used to add read group information to BAM
+
+**[Freebayes](https://github.com/freebayes/freebayes) haplotype caller**
+- Used to detect genetic variants segregating in the mapping population
+
+**[BLAT](https://genome.ucsc.edu/FAQ/FAQblat.html)**
+- The blast like alignment tool
 
 ## Description of notebooks and order of analysis pipeline:
 
