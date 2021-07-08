@@ -2,7 +2,17 @@
 
 Python functions and notebooks used in QTL analysis of C. neoformans hypermutator phenotype in Priest et al. 2021
 
+## Dependencies
+BWA
+SAMTOOLS
+BAMADDRG
+FREEBAYES
+PYTHON
+
 ## Description of notebooks and order of analysis pipeline:
+
+FASTQ_alignment_and_variant_calling.ipynb
+- A notebook that constructs calls for aligning paired-end reads with BWA, SAM to BAM conversion, adding readgroups, and calling freebayes for variant detection
 
 hypermutatorqtl.py
 - A library of dataframes, lists, variables, and functions used across notebooks.
