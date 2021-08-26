@@ -29,8 +29,9 @@
 ## Ignore lists
 /NOTEBOOKS/*.txt
 
-## Ignore Large SNP dataframe
-#/GENOTYPE/*-SNPS.csv.gz
+## Ignore gene dataframes
+/GENOTYPE/*/CNAG*t26_*.csv.gz
+/GENOTYPE/*.csv.gz
 
 ## Ignore pdf file
 *.pdf
