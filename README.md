@@ -1,6 +1,6 @@
 # Hypermutator_QTL
 
-Python functions and jupyter notebooks used in QTL analysis of C. neoformans hypermutator phenotype in Priest et al. 2021
+Python functions and jupyter notebooks used in QTL analysis of *Cryptococcus neoformans* hypermutator phenotype in **[Priest et al. 2021](https://www.biorxiv.org/content/10.1101/2021.08.11.455996v1)** 
 
 ## Dependencies
 
