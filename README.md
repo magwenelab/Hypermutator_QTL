@@ -40,9 +40,9 @@ Python functions and jupyter notebooks used in QTL analysis of *Cryptococcus neo
 - Plots the haplotypes across chromosome 3 and 11, generating supplementary Figure S5 in Priest et al.
 
 ### QTL_analysis
-- Codnducts QTL analysis of hyptermutator phenotype and genotypes in Bt65 x H99 F1 progeny, generating Figure 4, Supplementary Figure S4
+- Codnducts QTL analysis of hyptermutator phenotype and genotypes in Bt65 x H99 F1 progeny, generating upper panel of Figure 2, middle panle of Figure 2, and Supplementary Figure S4 as seen in Priest et al.
 
-### Figure_S13_Genome_diagnostic_plot
+### Supplementary_Figure_S13
 - For each sample sequenced from the Bt65 x H99 cross, constructs diagnostic plots of allele, read-depth, allelic read-depth across chromosomes. The plot for progney P25 was used as Supplementary Figure S13 in Priest et al.
 
 ### LongCOA_visulization
