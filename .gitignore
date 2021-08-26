@@ -16,6 +16,7 @@
 ## Ignore test and oldnotebooks and scripts
 /NOTEBOOKS/*_test.*
 /NOTEBOOKS/*_old.*
+/NOTEBOOKS/*.csv
 
 ## Ignore bash commands
 /NOTEBOOKS/*.sh
