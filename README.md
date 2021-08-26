@@ -19,9 +19,6 @@ Python functions and jupyter notebooks used in QTL analysis of C. neoformans hyp
 **[Freebayes](https://github.com/freebayes/freebayes) haplotype caller**
 - Used to detect genetic variants segregating in the mapping population
 
-**[BLAT](https://genome.ucsc.edu/FAQ/FAQblat.html)**
-- The blast like alignment tool
-
 ## Description of notebooks and order of analysis pipeline:
 
 FASTQ_alignment_and_variant_calling.ipynb
