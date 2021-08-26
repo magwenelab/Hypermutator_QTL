@@ -13,8 +13,9 @@
 ## Ignore cache
 /NOTEBOOKS/__pycache__/*
 
-## Ignore test notebooks and scripts
+## Ignore test and oldnotebooks and scripts
 /NOTEBOOKS/*_test.*
+/NOTEBOOKS/*_old.*
 
 ## Ignore bash commands
 /NOTEBOOKS/*.sh
@@ -30,3 +31,6 @@
 
 ## Ignore Large SNP dataframe
 #/GENOTYPE/*-SNPS.csv.gz
+
+## Ignore pdf file
+*.pdf
