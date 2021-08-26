@@ -21,29 +21,32 @@ Python functions and jupyter notebooks used in QTL analysis of *Cryptococcus neo
 
 ## Description of notebooks and order of analysis pipeline:
 
-### FASTQ_alignment_and_variant_calling
+#### FASTQ_alignment_and_variant_calling
 - A notebook that constructs bash calls for aligning paired-end reads with BWA, SAM to BAM conversion, adding readgroups, and calling freebayes for variant detection
 
-### hypermutatorqtl.py
+#### hypermutatorqtl.py
 - A library of dataframes, lists, variables, and functions used across notebooks.
 
-### Phenotype_preprocess
+#### Phenotype_preprocess
 - Transforms and addjusts labels and scles of hypermutator phenotype data.
 
-### Figure_S14_Filter_VCF
+#### Genetic_variant_filtering
 - Filters the variant call files across chromosomes and generates supplementary Figure S14 in Priest et al.
 
-### Genotype_postprocess
+#### Genotype_postprocess
 - Reformats genotpe data and sample names for use in QTL mapping.
 
-### Supplementary_Figure_S5
+#### Supplementary_Figure_S5
 - Plots the haplotypes across chromosome 3 and 11, generating supplementary Figure S5 in Priest et al.
 
-### QTL_analysis
-- Codnducts QTL analysis of hyptermutator phenotype and genotypes in Bt65 x H99 F1 progeny, generating upper panel of Figure 2, middle panle of Figure 2, and Supplementary Figure S4 as seen in Priest et al.
+#### QTL_analysis
+- Codnducts QTL analysis of hyptermutator phenotype and genotypes in Bt65 x H99 F1 progeny, generating upper panel of Figure 2 and Supplementary Figure S4 as seen in Priest et al.
 
-### Supplementary_Figure_S13
-- For each sample sequenced from the Bt65 x H99 cross, constructs diagnostic plots of allele, read-depth, allelic read-depth across chromosomes. The plot for progney P25 was used as Supplementary Figure S13 in Priest et al.
+#### Supplementary_Figure_S13
+- For each sampled progeny sequenced from the Bt65 x H99 cross, constructs diagnostic plots of allele, read-depth, allelic read-depth across chromosomes. The plot for progney P25 was used as Supplementary Figure S13 in Priest et al.
 
-### LongCOA_visulization
-- Plots the gene model, variants, and amino acids for *CNAG_01836* similar to upper panel of Supplementary Figure S7 in Priest et al. 
+#### ZNF3_visulization
+- Plots the gene model, variants, and amino acids for *CNAG_02700* used in middle panel of Figure 2 in Priest et al. 
+
+#### LongCOA_visulization
+- Plots the gene model, variants, and amino acids for *CNAG_01836* used in upper panel of Supplementary Figure S7 in Priest et al. 
