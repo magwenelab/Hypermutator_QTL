@@ -21,9 +21,8 @@ Centromeres = pd.DataFrame([
 MAT = np.array([185700,275730])
 
 ## Define colormap
-colors = ['olive','salmon','tab:blue','tab:green',
-          'tab:red','tab:grey','tab:brown',
-          'lightgrey','tan','gold','lightblue']
+colors = ['#E69F00','#009E73','#CC79A7',
+              '#56B4E9','#0072B2','#D55E00','#0072B2']
 
 ## Set parnetal lables
 ## For H99

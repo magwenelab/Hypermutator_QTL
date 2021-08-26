@@ -39,6 +39,9 @@ Python functions and jupyter notebooks used in QTL analysis of *Cryptococcus neo
 #### Supplementary_Figure_S5
 - Plots the haplotypes across chromosome 3 and 11, generating supplementary Figure S5 in Priest et al.
 
+#### snpeffect
+- For the QTL regions on chromosome 3 and 11, predicts the changes in amino acid sequnces for genes within these QTL.
+
 #### QTL_analysis
 - Codnducts QTL analysis of hyptermutator phenotype and genotypes in Bt65 x H99 F1 progeny, generating upper panel of Figure 2 and Supplementary Figure S4 as seen in Priest et al.
 
