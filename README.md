@@ -36,6 +36,9 @@ Python functions and jupyter notebooks used in QTL analysis of *Cryptococcus neo
 #### Genotype_postprocess
 - Reformats genotpe data and sample names for use in QTL mapping.
 
+#### Make_chromosome_map
+- Merges chromosome variant data and data from the reference genome to construct a map associated chromosome names and numbers (as well as other data).
+
 #### Supplementary_Figure_S5
 - Plots the haplotypes across chromosome 3 and 11, generating supplementary Figure S5 in Priest et al.
 

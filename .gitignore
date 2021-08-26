@@ -16,7 +16,6 @@
 ## Ignore test and oldnotebooks and scripts
 /NOTEBOOKS/*_test.*
 /NOTEBOOKS/*_old.*
-/NOTEBOOKS/*.csv
 
 ## Ignore bash commands
 /NOTEBOOKS/*.sh
@@ -29,6 +28,7 @@
 
 ## Ignore lists
 /NOTEBOOKS/*.txt
+/NOTEBOOKS/*.csv
 
 ## Ignore gene dataframes
 /GENOTYPE/*/CNAG*t26_*.csv.gz
